@@ -49,7 +49,7 @@ const auth = (...roles: TRole[]) => {
 
      
 
-      // 4. Check role permission
+     
       if (roles.length && !roles.includes(user.role )) {
         res.status(StatusCodes.FORBIDDEN).json({
           success: false,
@@ -59,7 +59,7 @@ const auth = (...roles: TRole[]) => {
       }
 
     
-      req.user = decoded   //req : {user : {} }
+      req.user = decoded
       next();
     } catch (error) {
       next(error);
