@@ -6,7 +6,7 @@ const port = config.port;
 
 
 
-const main=()=>{
+const main= async()=>{
 
 initDB();
 

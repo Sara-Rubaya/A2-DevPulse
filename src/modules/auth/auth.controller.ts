@@ -5,7 +5,7 @@ import sendResponse from "../../utility/sendResponse";
 import type { ILoginPayload, IRegisterPayload } from "./auth.interface";
 import { authService } from "./auth.service";
 
-// ─── POST /api/auth/signup ────────────────────────────────────────────────────
+// POST /api/auth/signup 
 const signup = async (req: Request, res: Response): Promise<void> => {
   try {
     const payload = req.body as IRegisterPayload;
@@ -28,7 +28,7 @@ const signup = async (req: Request, res: Response): Promise<void> => {
   }
 };
 
-// ─── POST /api/auth/login ─────────────────────────────────────────────────────
+//  POST /api/auth/login 
 const login = async (req: Request, res: Response): Promise<void> => {
   try {
     const payload = req.body as ILoginPayload;

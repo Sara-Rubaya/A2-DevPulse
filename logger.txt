@@ -1,0 +1,36 @@
+
+Method -> POST - Time -> 1779509738008 - URL -> /api/auth/login
+
+Method -> POST - Time -> 1779509753190 - URL -> /api/auth
+
+Method -> GET - Time -> 1779509757938 - URL -> /api/auth
+
+Method -> GET - Time -> 1779509759278 - URL -> /api/auth
+
+Method -> GET - Time -> 1779510476718 - URL -> /api/auth
+
+Method -> GET - Time -> 1779510482491 - URL -> /api/auth/login
+
+Method -> GET - Time -> 1779510484684 - URL -> /api/auth/login
+
+Method -> GET - Time -> 1779510485899 - URL -> /api/auth/login
+
+Method -> POST - Time -> 1779510516835 - URL -> /api/auth/signup
+
+Method -> POST - Time -> 1779510560868 - URL -> /api/auth/signup
+
+Method -> POST - Time -> 1779510605085 - URL -> /api/auth/login
+
+Method -> GET - Time -> 1779510627333 - URL -> /
+
+Method -> GET - Time -> 1779510688436 - URL -> /api/auth/login
+
+Method -> POST - Time -> 1779510693467 - URL -> /api/auth/login
+
+Method -> POST - Time -> 1779510764850 - URL -> /api/issues
+
+Method -> GET - Time -> 1779510796250 - URL -> /api/issues
+
+Method -> GET - Time -> 1779510814599 - URL -> /api/issues/1
+
+Method -> PATCH - Time -> 1779510853368 - URL -> /api/issues/1

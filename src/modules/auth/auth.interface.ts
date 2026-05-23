@@ -2,7 +2,7 @@ export interface IRegisterPayload {
   name: string;
   email: string;
   password: string;
-  role?: "contributor" | "maintainer";
+  role?: "contributor" | "maintainer" | "user";
 }
 
 export interface ILoginPayload {
