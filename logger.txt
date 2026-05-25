@@ -34,3 +34,9 @@ Method -> GET - Time -> 1779510796250 - URL -> /api/issues
 Method -> GET - Time -> 1779510814599 - URL -> /api/issues/1
 
 Method -> PATCH - Time -> 1779510853368 - URL -> /api/issues/1
+
+Method -> GET - Time -> 1779510951362 - URL -> /api/users
+
+Method -> GET - Time -> 1779510965428 - URL -> /api/issues/1
+
+Method -> GET - Time -> 1779511506326 - URL -> /api/issues/1

@@ -1,0 +1,25 @@
+import { defineConfig } from "tsup";
+
+
+export default defineConfig({
+ entry: ["src/server.ts"],
+  format: ["cjs"],
+  target: "node18",
+  outDir: "dist",
+  clean: true,
+  bundle: true,
+  splitting: false,
+  sourcemap: false,
+ // Add this banner to shim require() for CJS dependencies
+ banner: {
+ js: `
+
+   import { createRequire } from 'module';
+
+   const require = createRequire(import.meta.url);
+
+  `,
+
+ },
+
+});
