@@ -44,4 +44,4 @@ app.use((req: Request, res: Response) => {
 });
 
 app.use(globalErrorHandler);
-export default app
+export default app;
